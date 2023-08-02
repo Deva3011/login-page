@@ -1,0 +1,113 @@
+#a1{
+    border: 1px solid black;
+    height: 17px;
+    width: 15px;
+    border-radius: 100%;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+span{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+
+    background-color: #77e2d0;
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    left: 450px;
+    top: 650px;
+    box-shadow: 10px 5px 10px 5px gray;
+    animation-name: str;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes str {
+    0% {
+        top:650px;
+    }
+    100%{
+        top: 150px;
+    }
+    
+}
+
+#d1{
+    padding-top: 60px;
+    text-align: center;
+}
+
+input{
+        height: 20px;
+        width: 200px;
+        border-radius: 5px;
+}
+#t1{
+    position: relative;
+    height :20px;
+    width:100px;
+    border-radius: 5px;
+    left: -12px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+#sign{
+    text-decoration: none;
+}
+#btn2{
+    border: none;
+    background-color:#77e2d0 ;
+    font-size: larger;
+    height: 20px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+/* =================Sign up===================== */
+
+#main2{
+
+    background-color: rgb(230, 181, 213);
+    position: relative;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    left: 450px;
+    bottom: 570px;
+    box-shadow: 10px 5px 10px 5px gray;
+    animation-name: str2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes str2 {
+    0% {
+        bottom:570px;
+    }
+    100%{
+        bottom: 10px;
+    }
+    
+}
+
+
+/* #d2{
+
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+} */
